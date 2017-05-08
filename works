@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Johan Cristobal </title>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet"/>
+	<link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/n8wheaYe7Ngi0vyEndnxBXuWjwLVlSsFF3pphZxi8FGJF9qBi9pOuzWOphrZuS1yZ3U04RwkLHMV9XQ=w1366-h662" />
+</head>
+
+<style = "css">
+	h1 {
+	padding-top: 0.5em;
+	line-height: 0em;
+	text-align: justify center;
+	letter-spacing: 0.075em;
+	text-shadow: 0.5px 0.5px 1.5px #000000;
+	}
+	h2 {
+	padding-right: 0.3em;
+	line-height: 0em;
+	text-align: left;
+	letter-spacing: 0.01em;
+	text-shadow: 0.1px 0.1px 0.1px #000000;
+	}
+	p {
+	max-width: relative;
+	padding-top: 0em;
+	line-height: 1em;
+	text-align: center;
+	}
+</style>
+
+<body>
+	<h2> <font face = "Roboto" size = "3">
+	<a href = "http://www.johanc.me" target = "_self">GO BACK</a>	
+	
+	</font> </h2>
+	
+	<p> in progress </p>
+	
+</body>
+
+</html>
