@@ -3,150 +3,212 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Johan Cristobal </title>
+	<title> Johan's Portfolio </title>
 	<link rel="stylesheet" href="css/common.css" type="text/css" />
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet"/>
-	<link rel="icon" type="image/png" href="https://gdurl.com/zAss" />
+	<link rel="icon" type="image/png" href="https://gdurl.com/M0diu" />
 </head>
 
 <style = "css">
 	body {
-		background-image: url("http://gdurl.com/lFqc");
+		background-image: url("https://gdurl.com/O6am");
+		background-position: center;
 		background-repeat: no-repeat;
-		background-position: top;
-		background-size: height: 100%;
+		background-color: #ffffff;
 		background-attachment: fixed;
-		background-color: #000000;
-		text-align: center;
+		line-height: 0em;
+		text-align: left;
+		font-family: 'Roboto', sans-serif;
+		padding-left: 2%;
 	}
-	div.links {
-		text-shadow: 2px 2px #000000;
+	p {
 		max-width: relative;
-		line-height: 1em;
-		padding-top: 0em;
+		line-height: 0.2em;
 		text-align: center;
-		letter-spacing: 2px;
+		font-family: 'Roboto', sans-serif;
+		vertical-align: middle;
+		font-size: 5px;
+	}
+	div.title {
+		max-width: relative;
+		line-height: 0.9em;
+		padding-top: 5%;
+		padding-left: 28%;
+		text-align: left;
 		font-family: 'Roboto Thin', sans-serif;
 		vertical-align: middle;
-		font-size: 20px;
-		color: "white";
+		font-size: 60px;
+		color: #000000;
+		text-shadow: 1px 1px 10px #ffffff;
 	}
-	div.name {
-		font-family: 'Roboto Light', sans-serif;
-		color: #ffffff;
-		letter-spacing: 1px;
-		line-height: 0.5em;
-		width: 300px;
-		text-align: left;
-		font-size: 25px;
-		padding-left: 10%;
-		padding-top: 0.5em;
-		padding-bottom: 0.5em;
+	div.gall {
+		max-width: 100%;
+		line-height: 1.5em;
+		padding-top: 1em;
+		padding-left: 28%;
+	}
+	div.gall img {
+		width: 65%;
+		margin-right: 0.2em;
+	}
+	img {
+		box-shadow: 0px 0px 1px #000000;
+
 	}
 	a { text-decoration: none; }
 	a:link { color: white; }
 	a:visited { color: white; }
-	a:hover { color: gray; }
+	a:hover 
+	{ 
+		color: white;
+		font-family: 'Roboto', sans-serif;
+		font-style: italic;
+	}
 	a:active { color: black; }
-	hr { opacity: 0.2; }
-	div.gallery {
-		margin: 0px;
-		width: 80%;
-		padding-left: 10%;
+	hr { opacity: 1.0; }
+
+	div.sidebar {
+		float: left;
+		width: 24%;
+		padding-top: 5%;
+		padding-left: 5%;
+		font-family: 'Roboto Light', sans-serif;
+		font-size: 20px;
 	}
-	div.gallery img {
-		width: max-width: 100%;
-		height: auto;
+
+	.dropbtn {
+	    color: black;
+	    padding: 10px;
+	    font-size: 20px;
+	    border: 1px white;
+	    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
 	}
-	
-	div.info {
-		font-family: 'Roboto Thin', sans-serif;
-		color: #ffffff;
-		width: 78%;
-		letter-spacing: 1px;
-		line-height: 18px;
-		text-align: left;
-		font-size: 15px;
-		padding-left: 12%;
-		padding-bottom: 2%;
+	.dropdown {
+	    position: relative;
+	    display: inline-block;
 	}
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #f1f1f1;
+	    min-width: 120px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    z-index: 1;
+	}
+	.dropdown-content a {
+	    color: black;
+	    padding: 20px 10px;
+	    text-decoration: none;
+	    display: block;
+	}
+	.dropdown-content a:hover {background-color: #ddd}
+
+	.dropdown:hover .dropdown-content {
+	    display: block;
+	}
+
+	.dropdown:hover .dropbtn {
+	    background-color: #f1f1f1;
+	}
+
+	/* Hover Title Stuff */
+	.container {
+		display: inline-block;
+		position: relative;
+		width: 100%;
+	}
+
+	.image {
+	  display: block;
+	  width: 50%;
+	  height: auto;
+	}
+
+	.overlay {
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  height: relative;
+	  width: 65%;
+	  opacity: 0;
+	  transition: .2s ease;
+	  background-color: #ffffff;
+	}
+
+	.container:hover .overlay {
+	  opacity: 0.4;
+	}
+
+	.containertitle {
+	  color: #000000;
+	  font-family: Roboto;
+	  font-size: 20px;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	}
+
 </style>
 
-<body>
-	<a href="/johanc/index.html"><img src = "http://gdurl.com/zAss" height = "50" width = "50"> </a>
-<hr width = "80%">
-	<div class = "links">
-	<a href="/johanc/math.html" target="_self">MATH</a> &nbsp;
-	<a href="" target="_self">DESIGN</a> &nbsp;
-	<a href="https://github.com/johanmcs" target="_blank">COMSCI</a> &nbsp;
-	</div>
-<hr width = "80%">
-	<div class = "links"><font size = "1"><i>
-	<a href="#logos">LOGOS</a> &nbsp;
-	<a href="#others">OTHERS</a> &nbsp;
-	</i></font>
-	</div>
+<body link = "white">
+	<font color = "black">
 
-<div id = "logo"></div>
-<div class = "name"></br><i>Logo Works</i><hr align = "left" width = "47%"></div>
-
-<div class = "info">
-	Some of the things I've made that went on to be the logos for events, shirts, and projects.
-</div>
-	
-	<div class = "gallery">
-		<img src="http://gdurl.com/CuRu" alt = "Enchanted" width = "24.5%">
-
-		<img src="http://gdurl.com/GUkv" alt = "Casino" width = "24.5%">
-
-		<img src="http://gdurl.com/xHZ1" alt = "Howl" width = "24.5%">
-
-		
-		<img src="https://gdurl.com/6N_3" alt = "Umbra" width = "24.5%">
-		
-		<img src="https://gdurl.com/5vnz" alt = "Fruit" width = 24.5%>
-		
-		<img src="https://gdurl.com/H8gO" alt = "UCLA Shirt" width = "24.5%">
-		
-		<img src="http://gdurl.com/yoh8" alt = "RT8" width = "24.5%">
-		
-		<img src="https://gdurl.com/cn-S" alt = "C7" width = 24.5%>
-		
-		<img src="https://gdurl.com/yRLJ" alt = "Star" width = 24.5%>
-				
-		<img src="http://gdurl.com/OllM" alt = "Power" width = "24.5%">
-		
-		<img src="https://gdurl.com/vLuR" alt = "Head" width = 24.5%>
-		
-		<img src="https://gdurl.com/YCdr" alt = "Evil" width = 24.5%>
+	<div class = "sidebar">
+		<div class="dropdown">
+		  <button class="dropbtn">≡ MENU</button>
+		  <div class="dropdown-content">
+		  	<a href = "/johanc/index.html" target = "_self">HOME</a>
+		  	<a href = "/johanc/about.html" target = "_self">BIO</a>
+		  	<a href = "/johanc/design.html" target = "_self">PORTFOLIO</a>
+		  	<a href = "/johanc/contact.html" target = "_self">SOCIALS</a>
+		  </div>
+		</div>
 	</div>
 
-<div id = "others"></div>
-<div class = "name"><i></br></br>Others<hr align = "left" width = "27%"></i></div>
+	<div class = "title"> PORTFOLIO </div>
 
-<div class = "info">
-	A few other works that I felt proud enough to showcase here.
-</div>
+	<div class = "gall">
+		<div class="container">
+			<img src="https://gdurl.com/vLuR" alt = "Head" class = "image">
+		  	<div class="overlay">
+		    	<div class="containertitle">Thinking Differently</div>
+		    </div>
+		</div>
 
-	<div class = "gallery">
-		<img src="https://gdurl.com/SJIJ" alt = "hand" width = "97%">
+		<div class="container">
+		    <img src="https://gdurl.com/yRLJ" alt = "Star" class = "image">
+		    <div class="overlay">
+		    	<div class="containertitle">LA Star Concept</div>
+		    </div>
+		</div>
+
+		<div class="container">
+		    <img src="https://gdurl.com/v1E3" alt = "February" class = "image">
+		    <div class="overlay">
+		    	<div class="containertitle">Valentine's Day Concept</div>
+		    </div>
+		</div>
+
+		<div class="container">
+		    <img src="https://gdurl.com/ctfs" alt = "December" class = "image">
+		    <div class="overlay">
+		    	<div class="containertitle">Christmas Concept</div>
+		    </div>
+		</div>
+
+		<div class="container">
+		    <img src="https://lh3.googleusercontent.com/kq23oIDXbtxB_4I5KmFdFYw5qkBxWropKW4-xwebZMLNE4jWc2pXgJERrHVwbQwm4dVUlyaNZynXHhmTDcmD=w2736-h1614" alt = "December" class = "image">
+		    <div class="overlay">
+		    	<div class="containertitle">Knowledge is Power</div>
+		    </div>
+		</div>
 	</div>
 
-	<div class = "gallery">
-		<img src="https://gdurl.com/FeWU" alt = "Sept" width = 24.5%>
-		<img src="https://gdurl.com/n3oR" alt = "Oct" width = 24.5%>
-		<img src="https://gdurl.com/9iQ1" alt = "Nov" width = 24.5%>
-		<img src="https://gdurl.com/JFkc" alt = "Bassoon" width = "24.5%">
-		<img src="https://gdurl.com/PtGi" alt = "DecL" width = 24.5%>		
-		<img src="https://gdurl.com/ctfs" alt = "DecH" width = 24.5%>
-		<img src="https://gdurl.com/pvHG" alt = "Jan" width = 24.5%>
-		<img src="https://gdurl.com/v1E3" alt = "February" width = 24.5%>
-	</div>
-
-	<div class = "gallery">
-		<img src="http://gdurl.com/HutY" alt = "Demo" width = "97%" >
-	</div>
-
+	</font> 
 </body>
 </html>
