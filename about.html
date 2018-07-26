@@ -23,39 +23,41 @@
 		padding-left: 2%;
 	}
 	p {
-		max-width: 35%;
-		line-height: 1.5em;
-		padding-left: 33%;
-		text-align: left;
+		max-width: 100%;
+		line-height: 1.2em;
 		font-family: 'Roboto', sans-serif;
 		vertical-align: middle;
+		text-align: right;
+		padding-right: 1%;
 		font-size: 20px;
 	}
 	div.title {
 		max-width: relative;
 		line-height: 0.9em;
-		padding-top: 5%;
-		padding-left: 28%;
-		text-align: left;
+		padding-top: 2%;
+		padding-left: 15%;
+		padding-right: 1%;
+		text-align: right;
 		font-family: 'Roboto Thin', sans-serif;
 		vertical-align: middle;
-		font-size: 60px;
+		font-size: 40px;
 		color: #000000;
 		text-shadow: 1px 1px 10px #ffffff;
 	}
 	div.gall {
-		max-width: 90%;
+		max-width: 100%;
 		line-height: 1.5em;
-		padding-top: 1em;
-		padding-left: 28%;
+		padding-right: 1%;
+		padding-left: 15%;
+		text-align: right;
 	}
 	div.gall img {
-		width: 45%;
+		display: inline-block;		
+		width: 23%;
 		margin-right: 0.2em;
 	}
 	img {
 		box-shadow: 0px 0px 1px #000000;
-
 	}
 	a { text-decoration: none; }
 	a:link { color: white; }
@@ -69,50 +71,46 @@
 	a:active { color: black; }
 	hr { opacity: 1.0; }
 
+	/* Menu Stuff */
 	div.sidebar {
 		float: left;
 		width: 24%;
-		padding-top: 5%;
-		padding-left: 5%;
+		padding-top: 1%;
+		padding-left: 1%;
 		font-family: 'Roboto Light', sans-serif;
-		font-size: 20px;
+		font-size: 12px;
 	}
-
 	.dropbtn {
 	    color: black;
-	    padding: 10px;
-	    font-size: 20px;
+	    padding: 4px;
+	    font-size: 12px;
 	    border: 1px white;
 	    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
 	}
 	.dropdown {
 	    position: relative;
-	    display: inline-block;
 	}
 	.dropdown-content {
 	    display: none;
 	    position: absolute;
 	    background-color: #f1f1f1;
-	    min-width: 120px;
+	    min-width: 1px;
 	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	    z-index: 1;
 	}
 	.dropdown-content a {
 	    color: black;
-	    padding: 20px 10px;
+	    padding: 10px 10px;
 	    text-decoration: none;
 	    display: block;
 	}
 	.dropdown-content a:hover {background-color: #ddd}
-
 	.dropdown:hover .dropdown-content {
 	    display: block;
 	}
-
 	.dropdown:hover .dropbtn {
 	    background-color: #f1f1f1;
 	}
-
 </style>
 
 <body link = "white">
@@ -131,15 +129,18 @@
 	</div>
 
 	<div class = "title"> BIOGRAPHY </div>
-	<p>
-		Hello, my name is Johan Cristobal, a 2nd year Mathematics of Computation major at University of California, Los Angeles. It's a mouthful.
-	</p>
-	<p>
-		A lot of the things I make are in leisure, including this website.
-	</p>
-	<p>
-		In terms of design, I have a good handle on Photoshop, Illustrator, and InDesign. In terms of programming, I have a good handle on C and C++, HTML/CSS, and a bit of Python. In terms of everything else? I have an insane drive to learn it and to mess with it.
-	</p>
+	
+	<div class="gall">
+		<p>
+			Hello, my name is Johan Cristobal, 3rd year Mathematics of Computation student at UCLA. It's a mouthful.
+		</p>
+		<p>
+			A lot of the things I make are in leisure, including this website.
+		</p>
+		<p>
+			In terms of design, I have a good handle on Photoshop, Illustrator, and InDesign.<br>In terms of programming, I have a good handle on C and C++, HTML/CSS, and a bit of Python and Matlab.<br>In terms of everything else? I have an insane drive to learn it and to mess with it.
+		</p>
+	</div>
 
 	</font> 
 </body>
