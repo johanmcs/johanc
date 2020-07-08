@@ -3,7 +3,7 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Who is Johan? </title>
+	<title> Biography </title>
 	<link rel="stylesheet" href="css/common.css" type="text/css" />
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet"/>
@@ -12,131 +12,108 @@
 
 <style = "css">
 	body {
-		background-image: url("https://gdurl.com/IzVX");
-		background-position: left top;
-		background-size: 12%;
-		background-repeat: no-repeat;
-		background-color: #ffffff;
-		line-height: 0em;
-		text-align: left;
+		max-width: 100%;
+		margin: auto;
+		background-color: #E6E6E6;
 		font-family: 'Roboto', sans-serif;
-		padding-left: 2%;
 	}
 	p {
-		max-width: 70%;
-		line-height: 1.2em;
-		font-family: 'Roboto', sans-serif;
-		vertical-align: middle;
-		text-align: center;
-		padding-right: 1%;
-		font-size: 15px;
-	}
-	div.title {
-		max-width: 70%;
-		line-height: 0.9em;
-		padding-top: 5%;
-		text-align: center;
-		font-family: 'Roboto Thin', sans-serif;
-		vertical-align: middle;
-		font-size: 40px;
-		color: #000000;
-		text-shadow: 1px 1px 10px #ffffff;
-	}
-	div.gall {
-		float: right;
 		max-width: 80%;
+		margin: auto;
 		line-height: 1.5em;
-		text-align: right;
-	}
-	div.gall img {	
-		width: 40%;
-		margin-bottom: 0.3em;
-	}
-	a { text-decoration: none; }
-	a:link { color: white; }
-	a:visited { color: white; }
-	a:hover 
-	{ 
-		color: white;
 		font-family: 'Roboto', sans-serif;
-		font-style: italic;
+		text-align: left;
+		font-size: 15px;
+		padding-bottom: 10px;
 	}
-	a:active { color: black; }
-	hr { opacity: 1.0; }
-	/* Menu Stuff */
-	div.sidebar {
+	img {
+		max-width: 30%;
 		float: left;
-		width: 24%;
-		padding-top: 1%;
-		padding-left: 1%;
-		font-family: 'Roboto Light', sans-serif;
-		font-size: 12px;
+		padding-right:15px;
+		padding-bottom:15px;
 	}
-	.dropbtn {
-	    color: black;
-	    padding: 4px;
-	    font-size: 12px;
-	    border: 1px white;
-	    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+	a { text-decoration: none; font-style: bold; }
+	a:link { color: black; }
+	a:visited { color: black; }
+	a:hover { color: white; }
+	a:active { color: black; }
+	hr { opacity: 1.0; max-width: 85%;}
+	/* Menu Stuff */
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #d1d1d1;
 	}
-	.dropdown {
-	    position: relative;
+	li {  border-right: 1px solid #E6E6E6; float: left; }
+	li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 10px 12px;
+	  text-decoration: none;
 	}
-	.dropdown-content {
-	    display: none;
-	    position: absolute;
-	    background-color: #f1f1f1;
-	    min-width: 1px;
-	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	    z-index: 1;
-	}
-	.dropdown-content a {
-	    color: black;
-	    padding: 10px 10px;
-	    text-decoration: none;
-	    display: block;
-	}
-	.dropdown-content a:hover {background-color: #ddd}
-	.dropdown:hover .dropdown-content {
-	    display: block;
-	}
-	.dropdown:hover .dropbtn {
-	    background-color: #f1f1f1;
-	}
+	li a:hover:not(.active) {  background-color: #F07B7B;}
+	.active {  background-color: #d00000;}
+
 </style>
 
 <body link = "white">
 	<font color = "black">
 
-	<div class = "sidebar">
-		<div class="dropdown">
-		  <button class="dropbtn">≡ MENU</button>
-		  <div class="dropdown-content">
-		  	<a href = "/johanc/index.html" target = "_self">HOME</a>
-		  	<a href = "/johanc/about.html" target = "_self">BIO</a>
-		  	<a href = "/johanc/design.html" target = "_self">PORTFOLIO</a>
-		  </div>
-		</div>
-	</div>
+	<!-- Menu -->
+	<ul>
+	  <li><a href = "/johanc/index.html" target = "_self">HOME</a></li>
+	  <li><a class = "active" target = "_self">BIO</a></li>
+	  <li><a href = "/johanc/math.html" target = "_self">MATH</a></li>
+	  <li><a href = "/johanc/design.html" target = "_self">PORTFOLIO</a></li>
+	</ul>
 	
-	<div class="gall">
-			<div class = "title"> <img src ="http://drive.google.com/uc?id=1q2pLXP4wMn3QjLlCEuBwkpX1UFIED4eZ" border=2> <br> BIOGRAPHY </div>
-		<p>
-			Hello, my name is Johan Cristobal, a 4th year Mathematics of Computation student at UCLA. It's a mouthful.
-		</p>
-		<p>
-			A lot of the things I make are in leisure, including this website.
-		</p>
-		<p>
-			In the realm of <font color= "red">mathematics</font>, I like differential equations and dynamical systems. I would like to study the mathematics behind fluid dynamics and fluid simulations, with the goal to improve or create new physics engines for animation and media.
-			In the realm of <font color = "blue">design</font>, I can use Photoshop, Illustrator, InDesign, and Premiere Pro. I like to create things on the downlow and on the free time that I do have.
-			In the realm of <font color = "#3cc88c">computer science </font>, I can proficiently code in C/C++, while being vaguely efficient in Python, LISP, and other languages. I would like to study how to optimize software so the numerical computations of fluid simulations don't take as much time as they currently do.
-		</p>
-		<p> In terms of everything else? I have an insane drive to learn it and to mess with it.
-			<br>I'll get my grubby hands on it someday.
-		</p>
-	</div>
+	</br>
 
-	</font> 
+	<!-- Actual Body -->
+	<p>
+		<img src ="http://drive.google.com/uc?id=1q2pLXP4wMn3QjLlCEuBwkpX1UFIED4eZ">
+		Hello, my name is Johan Cristobal, a first-year graduate student in the Mathematics Department at University of Nebraska-Lincoln (UNL), pursuing a doctorate degree in Math! I graduated from University of California, Los Angeles (UCLA) in the chaotic year of 2020 with a Bachelor's of Science in Mathematics of Computation. My main goal in life is to inspire people to do whatever brings them joy and fulfillment, and I think being an instructor will help me do just that.
+	</p>
+
+	<p>
+		In <font color= "red">math</font>, I like differential equations. I don't really know much else besides that right now, but I do know that I find animation and physics-engines in video games very interesting. I would like to someday help in making the formulas those engines run on.
+	</p>
+	<p>
+		In <font color = "blue">the arts</font>, I like to create digital art through the Adobe Suite. I can fairly decently use Photoshop, Illustrator, InDesign, and Premiere Pro. And I am also currently learning how to use Adobe Dreamweaver and Adobe Audition! I also like music, I dabble in a bit of basic compositions when I get the rare inspiration.
+	</p>
+	<p>
+		In <font color = "#0E8606">other sciences</font>, I like computer science, but I lean more on the theoretical side of things. But don't be fooled, I can proficiently code in C/C++, while being vaguely efficient in Python and LISP. I also like Physics, mainly the basic stuff because I spent a year facilitating discussions and sections for an introductory Physics class.
+	</p>
+	
+	<p> 
+		In my attempt to learn more about math and how to be a good teacher and mentor, I pursued a graduate degree.
+		</br>
+		In my attempt to learn more about the arts, I have a <a href = "www.youtube.com/user/johanmode"><b>Youtube channel</b></a>. I learned how to storyboard, video edit, and even compose music for some of my videos. I also found that using YouTube has helped tremendously in practicing speaking publically, in person and through Zoom.
+		</br>
+		In my attempt to learn more about other sciences, I started this website, which hopefully shows how much I've learned in web-design (computer science). I also am planning on taking courses outside the math department at UNL to learn about other subjects, like I did in my time at UCLA.
+	</p>
+	
+	<p> As for everything else? <br>If it's not already on my list of things to look into, then I'll get my grubby hands on it someday.
+	</p>
+
+	<hr>
+
+	<p>
+		I'd like to take this section to provide quotes I heard in my life that I really like: </br>
+		"<i>Kung masaya ka, masaya rin ako. Wala akong paki-alam kung ano ang ginagawa mo sa college, just enjoy life. </i>" my dad, Roberto </br>
+		"<i>We've always been able to do more with less, so you can do this.</i>" my sister, Meziah </br>
+		"<i>Dude, stop trying to be such a perfectionist. It's the imperfections that make it perfect.</i>" my friend, Andgielika </br>
+		"<i>One step at a time.</i>" my friend, Andgielika
+		"<i>Fail Forward Fast.</i>" one of my instructors at UCLA, Sassone </br>
+		"<i>It took one person to believe in me, to tell me I could do this for me to do this.</i>" my favorite professor from UCLA, De Santiago </br>
+		"<i>You're already doing what you set out to do.</i>" a lot of people </br>
+		"<i>I'm so proud of you.</i>" a lot of people
+
+	</p>
+
+</font> 
 </body>
 </html>
