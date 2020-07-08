@@ -12,7 +12,7 @@
 
 <style = "css">
 	body {
-		background-image: url("http://drive.google.com/uc?id=1H0x4n4bcflCurZBM1Cvl0Po12ZfHFv-a");
+		background-image: url("http://drive.google.com/uc?id=12fNajWwd20uJP6sj8GwOspgc26RLuOK0");
 		background-position: top;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -21,14 +21,21 @@
 		line-height: 0em;
 		text-align: center;
 		font-family: 'Roboto', sans-serif;
+
+		text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 	}
-	p {
-		max-width: relative;
-		line-height: 0.2em;
-		text-align: center;
-		font-family: 'Roboto Thin', sans-serif;
-		vertical-align: middle;
-		font-size: 5px;
+	div.note {
+		max-width: 100%;
+		line-height: 1em;
+		text-align: right;
+		font-size: 12px;
+		position: fixed;
+     	padding: 5px;
+     	bottom: 5px;
+     	right: 5px;
+     	border-style: solid;
+     	background-color: #d00000;
+     	border-width: 2px;
 	}
 	div.title {
 		max-width: relative;
@@ -39,11 +46,6 @@
 		font-family: 'Roboto Thin', sans-serif;
 		vertical-align: middle;
 		font-size: 60px;
-		text-shadow: 1px 1px 5px #000000;
-	}
-	div.br {
-		line-height: 0.2em;
-		padding-left: 5%;
 	}
 	div.links {
 		max-width: relative;
@@ -57,44 +59,26 @@
 		letter-spacing: 2px;
 		color: "white";
 	}
-	div.bio {
-		max-width: relative;
-		line-height: 50%;
-		padding-top: 1%;
-		padding-left: 10%;
-		text-align: left;
-		font-family: 'Roboto Thin', sans-serif;
-		vertical-align: middle;
-		font-size: 17px;
-		color: "white";
-		text-shadow: 1px 1px 5px #000000;
-	}
 	a { text-decoration: none; }
-	a:link { color: white; }
+	a:link { color: #E3E3E3; }
 	a:visited { color: white; }
-	a:hover 
-	{ 
-		color: white;
-		font-family: 'Roboto', sans-serif;
-		font-style: italic;
-	}
+	a:hover { color: white; }
 	a:active { color: black; }
-	hr { opacity: 1.0; }
 </style>
 
 <body link = "white">
 	<font color = "white">
 
-	<div class = "title"> JOHAN <p></p> CRISTOBAL </div>
-
-	<p></p>
-	<div class = "bio"> ® Ver. 2020</div>
+	<div class = "title"> JOHAN </br> CRISTOBAL </div>
 
 	<div class = "links">
-		<a href = "/johanc/about.html" target = "_self"> ► BIOGRAPHY</a> </br>
-		<a href = "/johanc/math.html" target = "_self"> ► MATH</a> </br>
-		<a href = "/johanc/design.html" target = "_self"> ► PORTFOLIO</a> </br>
+		►<a href = "/johanc/about.html" target = "_self"> <b>BIOGRAPHY</b></a> | learn about me </br>
+		►<a href = "/johanc/math.html" target = "_self"> <b>MATH</b></a> | current/past teaching</br>
+		►<a href = "/johanc/design.html" target = "_self"> <b>PORTFOLIO</b></a> | digital art and videos</br>
+		►<a href = "/johanc/simple.html" target = "_self"> <b>SIMPLE</b></a> | the "Traditional" website </br>
 	</div>
-	</font> 
+
+	<div class = "note">Site version 2020-2021, updated 08 July 2020</div>
+</font> 
 </body>
 </html>
