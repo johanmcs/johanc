@@ -43,22 +43,22 @@
 	a:active { color: black; }
 	hr { opacity: 1.0; max-width: 85%;}
 	/* Menu Stuff */
-	ul {
+	ul.special {
 	  list-style-type: none;
 	  margin: 0;
 	  padding: 0;
 	  overflow: hidden;
 	  background-color: #d1d1d1;
 	}
-	li {  border-right: 1px solid #E6E6E6; float: left; }
-	li a {
+	li.special {  border-right: 1px solid #E6E6E6; float: left; }
+	li.special a {
 	  display: block;
-	  color: white;
+	  color: black;
 	  text-align: center;
 	  padding: 10px 12px;
 	  text-decoration: none;
 	}
-	li a:hover:not(.active) {  background-color: #F07B7B;}
+	li.special a:hover:not(.active) {  background-color: #F07B7B;}
 	.active {  background-color: #d00000;}
 
 	div.note {
@@ -77,6 +77,11 @@
 	div.PAD {
 		padding-bottom:5em;
 	}
+	ol.normal,ul.normal {
+		max-width: 100%;
+		font-size: 14px;
+		padding-left: 12%;
+	}
 
 </style>
 
@@ -84,40 +89,42 @@
 	<font color = "black">
 
 	<!-- Menu -->
-	<ul>
-	  <li><a href = "/johanc/index.html" target = "_self">HOME</a></li>
-	  <li><a href = "/johanc/about.html" target = "_self">BIO</a></li>
-	  <li><a class = "active" target = "_self">MATH</a></li>	  
-	  <li><a href = "/johanc/design.html" target = "_self">PORTFOLIO</a></li>
-	  <li><a href = "/johanc/simple.html" target = "_self">SIMPLE</a></li>
+	<ul class = "special">
+	  <li class = "special"><a href = "/johanc/index.html" target = "_self">HOME</a></li>
+	  <li class = "special"><a href = "/johanc/about.html" target = "_self">BIO</a></li>
+	  <li class = "special"><a class = "active" target = "_self">MATH</a></li>
+	  <li class = "special"><a href = "/johanc/minipapers.html" target = "_self">WRITINGS</a></li>	  
+	  <li class = "special"><a href = "/johanc/design.html" target = "_self">PORTFOLIO</a></li>
+	  <li class = "special"><a href = "/johanc/simple.html" target = "_self">SIMPLE</a></li>
+	  <li class = "special"><a href = "/johanc/pandesal.html" target = "_self">PANDESAL</a></li>
 	</ul>
 
 	</br>
 	<div class="note">contact: jcristobal2[at]huskers[dot]unl[dot]edu</div>
 
 	<!-- Actual Body -->
-	<p>I like differential equations, that's really all I know for now. But hopefully I can start naming some things and people related to my research interest.</p>
+	<p>
+		I like differential equations, that's really all I know for now. But hopefully I can start naming some things and people related to my research interest.
+	</p> 
+	<p>
+		In the meantime, I'm currently working on a monthly writing series where I attempt to discuss math in a way that non-math folks are able to understand. You can find out more about it and other writings I've done by clicking this link: <a href = "/johanc/minipapers.html" target = "_self"><i> WRITINGS</i></a>
+	</p>
 
 	<h1>Logistics</h1>
 	<p>
-		My office is located in Avery Hall 233, or you can find me in the Math Resource Center during the Fall Semester. Unfortunately, due to Covid-19 restrictions, I am not available for in-person meetings.</br>
+		Unfortunately, due to Covid-19 restrictions, I am not available for in-person meetings.</br>
 		You can always send an email to jcristobal2[at]huskers[dot]unl[dot]edu to setup an appointment with me.</br>
-		My curriculum vitae is right <a href="/johanc/CV_2020.pdf" target="_blank" style="color:#d00000"><b>here</b></a>.
+		My curriculum vitae is right <a href="/johanc/CV_2021.pdf" target="_blank" style="color:#d00000"><b>here</b></a>.
 	</p>
 	
-	<h1> Current Teaching </h1>
-	<p> 
-		In spring 2021, I will again be teaching MATH 106 Calculus I as the TA/recitation leader.
-	</p>
+	<h1> Teaching </h1>
+		<ol class = "normal">
+			<li>Spring 2021 - MATH 107, Calculus II as TA</li>
+			<li>Spring 2021 - MATH 310, Introduction to Modern Algebra as Grader</li>
+			<li>Fall 2020 - MATH 106, Calculus I as TA (two sections)</li>
+			<li>Fall 2019 through Spring 2020 - Physics 1A, Mechanics, as Peer-Learning Facilitator at UCLA</li>
+		</ol>
 	
-	<h1> Past Teaching </h1>
-	<p>
-		1. Fall 2020 - MATH 106, Calculus I as TA</br>
-		2. Fall 2019 through Spring 2020 - Physics 1A, Mechanics, as Peer-Learning Facilitator at UCLA </br>
-	</p>
-	
-	<h1> Writings/Projects</h1>
-	<p><i>I haven't done any projects yet</i> :D</p>
 
 	<div class="PAD"></div>
 

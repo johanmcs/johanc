@@ -77,22 +77,22 @@
 	a:active { color: black; }
 	hr { opacity: 1.0; max-width: 85%;}
 	/* Menu Stuff */
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #d1d1d1;
+	ul.special {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #d1d1d1;
 	}
-	li {  border-right: 1px solid #E6E6E6; float: left; }
-	li a {
-		display: block;
-		color: white;
-		text-align: center;
-		padding: 10px 12px;
-		text-decoration: none;
+	li.special {  border-right: 1px solid #E6E6E6; float: left; }
+	li.special a {
+	  display: block;
+	  color: black;
+	  text-align: center;
+	  padding: 10px 12px;
+	  text-decoration: none;
 	}
-	li a:hover:not(.active) {  background-color: #F07B7B;}
+	li.special a:hover:not(.active) {  background-color: #F07B7B;}
 	.active {  background-color: #d00000;}
 
 	/* Video Stuff*/
@@ -134,12 +134,14 @@
 	<font color = "black">
 
 	<!-- Menu -->
-	<ul>
-	  <li><a href = "/johanc/index.html" target = "_self">HOME</a></li>
-	  <li><a href = "/johanc/about.html" target = "_self">BIO</a></li>
-	  <li><a href = "/johanc/math.html" target = "_self">MATH</a></li>
-	  <li><a class = "active" target = "_self">PORTFOLIO</a></li>
-	  <li><a href = "/johanc/simple.html" target = "_self">SIMPLE</a></li>
+	<ul class="special">
+	  <li class="special"><a href = "/johanc/index.html" target = "_self">HOME</a></li>
+	  <li class="special"><a href = "/johanc/about.html" target = "_self">BIO</a></li>
+	  <li class="special"><a href = "/johanc/math.html" target = "_self">MATH</a></li>
+	  <li class="special"><a href = "/johanc/minipapers.html" target = "_self">WRITINGS</a></li>
+	  <li class="special"><a class = "active" target = "_self">PORTFOLIO</a></li>
+	  <li class="special"><a href = "/johanc/simple.html" target = "_self">SIMPLE</a></li>
+	  <li class="special"><a href = "/johanc/pandesal.html" target = "_self">PANDESAL</a></li>
 	</ul>
 
 	</br>
